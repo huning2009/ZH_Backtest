@@ -15,8 +15,8 @@ market_neutral_backtest(factor, price)
 市场中性回测
 
 __参数__
-- factor_data : pd.DataFrame - MultiIndex. A MultiIndex DataFrame indexed by date (level 0) and asset (level 1)
-- prices : pd.DataFrame - MultiIndex. A MultiIndex DataFrame indexed by date (level 0) and asset (level 1)
+- factor : pd.DataFrame - MultiIndex. A MultiIndex DataFrame indexed by date (level 0) and asset (level 1)
+- price : pd.DataFrame - MultiIndex. A MultiIndex DataFrame indexed by date (level 0) and asset (level 1)
 
 __输出__
 - performance summary: pd.DataFrame
